@@ -137,45 +137,34 @@ section h3 {
     margin: 1%;
 }
 
-section .product-box {
-    border: dashed 1px #333;
-    background-color: #c8e5f3;
-    border-radius: 2px;
-    width: 200px;
-    margin: 0 2% 1% 2%;
+.section-container .form-box {
+    background-color: #c7e5f2;
+    border: dashed 1px #79b22f;
+    border-radius: 5px;
+    width: 90%;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    ;
+}
+
+.section-container .fieldset-box{
+    padding: 30px;
+}
+
+.button-container{
     text-align: center;
+    margin: 20px 0 0 20px;
 }
 
-.product-box .namebook {
-    font-size: .9rem;
-    color: #193b63;
-}
-
-.product-box .namebook:hover {
-    font-style: italic;
-}
-
-.product-box .photo {
-    width: 150px;
-    height: 200px;
-    transition: .5s ease;
-}
-
-.product-box .photo:hover {
-    transform: scale(1.1);
-}
-
-.product-box .bill {
-    font-weight: bold;
-}
-
-.product-box .bill span {
-    color: red;
+.button-container .button{
+    background-color: #206ab5;
+    color: white;
     font-size: 1rem;
-}
-
-.product-box .buttonbuy {
-    width: 50%;
+    border: 1px;
+    border-radius: 2px;
+    padding: 10px;
+    margin-right: 20px;
 }
 
 footer {
