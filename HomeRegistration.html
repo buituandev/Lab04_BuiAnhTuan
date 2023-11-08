@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <title>ABC BookStore</title>
+</head>
+
+<body>
+    <header>
+        <div class="hleft">
+            <img src="img/logoABCbook.png" alt="" style="width: 200px; height: 100px;">
+        </div>
+        <div class="hright">
+            <i class="fa fa-user" aria-hidden="true"><a href="Login.html">Login</a></i> |
+            <a href="Registration.html">Registration</a>
+            <i class="fa fa-shopping-cart" aria-hidden="true"><a href="#">Cart</a></i>
+        </div>
+    </header>
+    <nav>
+        <div class="gNav">
+            <div class="hinput"><input type="text" placeholder="Enter the title of the book..." id="search">
+                <button>Find books</button>
+            </div>
+            <ul class="hbutton">
+                <li><a href="#">HOME PAGE</a></li>
+                <li><a href="Problem5.html">INTRODUCTION</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="body">
+        <article class="article">
+            <aside id="left">
+                <div class="article-box">
+                    <p>BOOKS BY SUBJECT</p>
+                    <ul type="square">
+                        <li><a href="#">Foreign language</a></li>
+                        <li><a href="#">Information technology</a></li>
+                        <li><a href="#">Law</a></li>
+                        <li><a href="#">Literature</a></li>
+                        <li><a href="#">Science and technology</a></li>
+                        <li><a href="#">Agriculture</a></li>
+                        <li><a href="#">History and geography</a></li>
+                        <li><a href="#">Economics</a></li>
+                        <li><a href="#">Listen to the songs</a></li>
+                    </ul>
+                </div>
+                <div class="article-box">
+                    <p>BOOKS BY PUBLISHER</p>
+                    <ul type="square">
+                        <li><a href="#">Young publisher</a></li>
+                        <li><a href="#">Statistics Publishing House</a></li>
+                        <li><a href="#">Bronze Needle</a></li>
+                        <li><a href="#">National University</a></li>
+                        <li><a href="#">Artistic craft culture</a></li>
+                        <li><a href="#">Culture</a></li>
+                        <li><a href="#">Labor-Society</a></li>
+                        <li><a href="#">Science & Engineering</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <section>
+                <h3>NEW BOOK</h3>
+                <div class="section-container">
+                    <div class="product-box">
+                        <h1 class="namebook">Giáo trình Tin học cơ bản</h1>
+                        <img class="photo" src="img/book.jpg">
+                        <p class="bill">Đơn giá: <span>26,000 VND</span></p>
+                        <a href="detailproduct.html"><img src="img/purchase.png" class="buttonbuy"></a>
+                    </div>
+                    <div class="product-box">
+                        <h1 class="namebook">The Davinci Code</h1>
+                        <img class="photo" src="img/Davinci.png">
+                        <p class="bill">Đơn giá: <span>265,000 VND</span></p>
+                        <a href="detailproduct.html"><img src="img/purchase.png" class="buttonbuy"></a>
+                    </div>
+                    <div class="product-box">
+                        <h1 class="namebook">English For Tech</h1>
+                        <img class="photo" src="img/EnglishForTech.jpg">
+                        <p class="bill">Đơn giá: <span>126,000 VND</span></p>
+                        <a href="detailproduct.html"><img src="img/purchase.png" class="buttonbuy"></a>
+                    </div>
+                    <div class="product-box">
+                        <h1 class="namebook">Harry Potter</h1>
+                        <img class="photo" src="img/harrypotter.png">
+                        <p class="bill">Đơn giá: <span>267,000 VND</span></p>
+                        <a href="detailproduct.html"><img src="img/purchase.png" class="buttonbuy"></a>
+                    </div>
+                    <div class="product-box">
+
+                        <h1 class="namebook">BARC Computer Science</h1>
+                        <img class="photo" src="img/BARC.png">
+                        <p class="bill">Đơn giá: <span>260,000 VND</span></p>
+                        <a href="detailproduct.html"><img src="img/purchase.png" class="buttonbuy"></a>
+
+                    </div>
+                    <div class="product-box">
+                        <h1 class="namebook">Visual Basic</h1>
+                        <img class="photo" src="img/VisualBasic.png">
+                        <p class="bill">Đơn giá: <span>265,000 VND</span></p>
+                        <a href="detailproduct.html"><img src="img/purchase.png" class="buttonbuy"></a>
+                    </div>
+                </div>
+
+            </section>
+            <aside id="right">
+                <div class="article">
+                    <div class="article-box">
+                        <p>
+                            BEST SELLER
+                        </p>
+                        <marquee direction="up" scrollamount="10" scrolldelay="100" onMouseMove="stop()"
+                            onMouseOut="start()">
+                            <a href="#"><img src="img/EnglishForTech.jpg">
+                                English For Tech</a>
+                        </marquee>
+                        <marquee direction="up" scrollamount="10" scrolldelay="100" onMouseMove="stop()"
+                            onMouseOut="start()">
+                            <a href="#"><img src="img/BARC.png"> BARC Computer
+                                Science</a>
+                        </marquee>
+                        <marquee direction="up" scrollamount="10" scrolldelay="100" onMouseMove="stop()"
+                            onMouseOut="start()">
+                            <a href="#"><img src="img/VisualBasic.png"> Visual
+                                Basic</a>
+                        </marquee>
+                        <marquee direction="up" scrollamount="10" scrolldelay="100" onMouseMove="stop()"
+                            onMouseOut="start()">
+                            <a href="#"><img src="img/harrypotter.png"> Harry
+                                Potter</a>
+                        </marquee>
+                    </div>
+
+                    <div class="article-box">
+                        <p>THE WEBSITE LINKS</p>
+                        <select name="links" id="links">
+                            <option value="00">--Select the linking page --</option>
+                            <option value="01"><a href="https://lib.eiu.edu.vn/">Eastern International University</a>
+                            </option>
+                            <option value="02"><a href="https://eiu.edu.vn/">Eastern International University</a>
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="article-box">
+                        <p>ACCESS STATISTICS</p>
+                        <h4>Total Access: 500</h4>
+                        <h4>Online: 3</h4>
+                    </div>
+                </div>
+            </aside>
+        </article>
+    </div>
+    <footer>
+        <p>
+            ©2016 - ABC BookStore. Allright Reserved.
+        </p>
+        <p>
+            Website is developed to be used as a hands-on exercise in Web Programming
+        </p>
+        <p>
+            Email: abcbookstore@gmail.com
+        </p>
+    </footer>
+</body>
+
+</html>
